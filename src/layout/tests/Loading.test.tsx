@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect"; // for the "toBeInTheDocument" matcher
+import "@testing-library/jest-dom/extend-expect";
 import { Loading } from "../Loading";
 
 describe("Loading", () => {
