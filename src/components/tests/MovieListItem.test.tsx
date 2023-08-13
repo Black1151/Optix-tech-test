@@ -39,6 +39,4 @@ describe("MovieListItem", () => {
     const avgReviewElement = screen.getByText(`Avg. Review: NaN / 10`);
     expect(avgReviewElement).toBeInTheDocument();
   });
-
-  // Further tests could involve checking styles, hover effects, etc. Those would typically require more involved testing utilities or snapshot testing.
 });
